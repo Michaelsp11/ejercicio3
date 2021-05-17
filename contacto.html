@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>Curriculum Michael Salgado</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <section class="link-principal">
+                <a class="text-white font-weight-bold" href="index.html">MS11</a>
+            </section>
+            <section class="links">
+                <ul>
+                    <li><a class="text-white font-weight-bold" href="index.html">Home</a></li>
+                    <li><a class="text-white font-weight-bold" href="contacto.html">Contacto</a></li>
+                    <li><a class="text-white font-weight-bold" href="cv.html">CV</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="container mb-5">
+            <h1 class="text-center">Contacto</h1>
+            <p class="text-center">Contacta conmigo sin ningún problema</p>
+        </section>
+        <section class="container mb-5">
+            <div class="row">
+                <div class="col-6 d-flex justify-content-center"><a href="tel:+34635382150" class="text-gray font-weight-bold">tel: +34 635382150</a></div>
+                <div class="col-6 d-flex justify-content-center"><a href="mailto:michaelsalgadop11@outlook.com" class="text-gray font-weight-bold">mail: michaelsalgadop11@outlook.com</a></div>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="text-center text-gray">También puedes enviarme un correo!</h2>
+            <form class="form shadow-card">
+                <div class="input-control">
+                    <label for="nombre" class="text-white d-block">Nombre:</label>
+                    <input type="text" id="nombre" />
+                </div>
+                <div class="input-control">
+                    <label for="apellidos" class="text-white d-block">Apellidos:</label>
+                    <input type="text" id="apellidos" />
+                </div>
+                <div class="input-control">
+                    <label for="email" class="text-white d-block">Email de contacto:</label>
+                    <input type="email" id="email" />
+                </div>
+                <div class="input-control">
+                    <label for="meet" class="text-white d-block">Donde nos has conocido?</label>
+                    <select id="meet">
+                      <option value="internet">Internet</option>
+                      <option value="tv">Tv</option>
+                      <option value="amigos">Amigos</option>
+                    </select>
+                </div>
+                <div class="input-control">
+                    <label for="phone" class="text-white d-block">Número de teléfono:</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="input-control">
+                    <label for="fecha" class="text-white d-block">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha">
+                </div>
+                <div class="input-control">
+                    <label for="message" class="text-white d-block">Mensaje:</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <div class="input-control mt-3">
+                    <span class="text-white">¿Le gustaría recibir información?</span>
+                    <input type="radio" name="info" id="radio-opt-1">
+                    <label for="radio-opt-1" class="text-white">Sí, mucha</label>
+                    <input type="radio" name="info" id="radio-opt-2">
+                    <label for="radio-opt-2" class="text-white">Sí, poca</label>
+                    <input type="radio" name="info" id="radio-opt-3">
+                    <label for="radio-opt-3" class="text-white">No</label>
+                </div>
+                <div class="input-control mt-3 mb-2">
+                    <input type="checkbox" id="politica">
+                    <label for="politica" class="text-white">Aceptas la política de privacidad.</label>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn" value="Enviar">
+                    <button type="button" class="btn" disabled>No hace nada</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container">
+            <p class="text-center text-white">All rights reserved by Michael Salgado.</p>
+        </section>
+    </footer>
+</body>
+
+</html>
